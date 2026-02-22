@@ -13,12 +13,14 @@ Desarrollar una interfaz desarrollada en entorno python basada en datos que perm
 
 
 \## 🛠️ Tecnologías Utilizadas
+<div align="left">
+  <br>
+  <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=101010" alt="MySQL" />
+  <br/>
 
-\* \*\*Lenguajes:\*\* Python, SQL
+</div>
 
-\* \*\*Análisis y Manipulación de Datos:\*\* Pandas, NumPy
-
-\* \*\*Machine Learning:\*\* Scikit-Learn (en desarrollo)
 
 
 
