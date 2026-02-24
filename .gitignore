@@ -1,0 +1,17 @@
+#Como github tiene limite de subida de datos haremos que ignore los datos en los que se alojaran los datasets
+
+# Entornos virtuales de Python
+env/
+venv/
+.env
+
+# Archivos de los datos 
+*.csv
+*.xlsx
+*.json
+data/raw/
+
+# Archivos basura que genera Python y el sistema operativo
+__pycache__/
+*.pyc
+.DS_Store
