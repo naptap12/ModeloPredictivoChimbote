@@ -1,0 +1,18 @@
+REPORTE DE CLASIFICACIÓN - MODELO CNN (MobileNetV2)
+==================================================
+
+Accuracy : 0.7912 (79.12%)
+Precision: 0.8397
+Recall   : 0.7198
+F1-Score : 0.7751
+
+TP: 131  TN: 157  FP: 25  FN: 51
+
+                precision    recall  f1-score   support
+
+No Contaminado       0.75      0.86      0.81       182
+   Contaminado       0.84      0.72      0.78       182
+
+      accuracy                           0.79       364
+     macro avg       0.80      0.79      0.79       364
+  weighted avg       0.80      0.79      0.79       364

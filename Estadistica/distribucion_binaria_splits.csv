@@ -1,0 +1,7 @@
+Split,Clase,Cantidad
+train,Contaminado,847
+train,No_Contaminado,847
+val,Contaminado,181
+val,No_Contaminado,181
+test,Contaminado,182
+test,No_Contaminado,182

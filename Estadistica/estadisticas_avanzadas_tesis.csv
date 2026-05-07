@@ -1,0 +1,5 @@
+Métrica,Valor,Interpretación
+Coeficiente de Variación (CV),102.06%,Variabilidad relativa entre clases
+Asimetría (Skewness),3.0638,Grado de inclinación de la distribución
+Mediana,878.0,Punto central de los datos
+Rango Intercuartílico (IQR),250.25,Dispersión del 50% central

@@ -1,0 +1,13 @@
+Clase_Original,Clase_Binaria,Total_Imagenes
+battery,Contaminado,121
+biological,Contaminado,121
+brown-glass,Contaminado,121
+clothes,Contaminado,121
+green-glass,Contaminado,121
+metal,Contaminado,121
+plastic,Contaminado,121
+shoes,Contaminado,121
+trash,Contaminado,121
+white-glass,Contaminado,121
+cardboard,No_Contaminado,606
+paper,No_Contaminado,604

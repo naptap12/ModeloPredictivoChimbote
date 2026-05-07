@@ -1,0 +1,57 @@
+PASOS PARA INICIALIZAR LA APLICACION WEB
+=========================================
+
+INSTALACION INICIAL (solo la primera vez):
+1. Crear entorno virtual (si no existe):
+   python -m venv .venv
+
+2. Activar el entorno virtual:
+   .\.venv\Scripts\Activate.ps1
+   .\.venv\Scripts\Activate.ps1 python app.py
+
+3. Instalar dependencias:
+   pip install -r requeriments.txt
+
+EJECUTAR LA APLICACION:
+1. Activar el entorno virtual:
+   .\.venv\Scripts\Activate.ps1
+
+2. Ejecutar la interfaz web:
+   python app.py
+
+3. Abrir en el navegador la direccion que aparece en la terminal
+   (generalmente: http://127.0.0.1:7860)
+
+=========================================
+RE-ENTRENAR MODELO CON DATASETS EXTENDIDOS
+=========================================
+
+El modelo actual fue entrenado solo con el dataset "Garbage Classification".
+Para mejorar la deteccion de entornos naturales (mar, agua, paisajes),
+usa el notebook de Google Colab.
+
+PASOS PARA RE-ENTRENAR:
+1. Abre Google Colab: https://colab.research.google.com
+
+2. Sube el archivo "entrenamiento_extendido.ipynb" a Colab
+
+3. Ejecuta todas las celdas en orden:
+   - Configurara Kaggle API (necesitas tu archivo kaggle.json)
+   - Descargara los datasets:
+     * Water Pollution Images (contaminado)
+     * Marine Pollution Dataset (contaminado)
+     * Ocean Debris Dataset (contaminado)
+     * Mountains and Beaches (no contaminado)
+     * Landscape Pictures (no contaminado)
+   - Entrenara el modelo con transfer learning
+   - Guardara el modelo en la misma estructura actual
+
+4. Descarga el archivo "modelo_contaminacion_extendido.zip"
+
+5. Descomprime y reemplaza los archivos en la carpeta "modelo/"
+
+DATASETS UTILIZADOS:
+- Contaminado: basura, plastico, contaminacion marina, escombros oceanicos
+- No Contaminado: carton, vidrio, metal, papel, playas limpias, paisajes
+
+NOTA: El modelo se cargara automaticamente al iniciar la aplicacion.

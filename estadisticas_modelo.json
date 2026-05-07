@@ -1,0 +1,15 @@
+{
+  "modelo": "CNN desde cero",
+  "accuracy": 0.7912087912087912,
+  "precision": 0.8397435897435898,
+  "recall": 0.7197802197802198,
+  "f1_score": 0.7751479289940828,
+  "auc_roc": 0.8900495109286318,
+  "umbral_decision": 0.6799999999999997,
+  "tp": 131,
+  "tn": 157,
+  "fp": 25,
+  "fn": 51,
+  "tiempo_total_prediccion_seg": 0.4882528781890869,
+  "tiempo_promedio_por_imagen_seg": 0.00134135406095903
+}
